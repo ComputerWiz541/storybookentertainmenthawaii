@@ -1,0 +1,564 @@
+::-webkit-scrollbar {
+    width: 0em; /* Set the width of the scrollbar to zero */
+}
+
+
+
+
+
+
+
+
+
+
+/* Atom Card*/
+* {box-sizing: border-box}
+
+.staff_container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills1 {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html1 {width: 0%; background-color: #e6660b;}
+.css1 {width: 30%; background-color: #e6540b;}
+.js1 {width: 85%; background-color: #de4f12;}
+.php1 {width: 100%; background-color: #c94912;}
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #6b1027;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Me Card*/
+* {box-sizing: border-box}
+
+.staff_container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills2 {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html2 {width: 90%; background-color: #7E1946;}
+.css2 {width: 75%; background-color: #A63446;}
+.js2 {width: 85%; background-color: #0C6291;}
+.php2 {width: 90%; background-color: #000004;}
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back2 {
+  background-color: #4EA699;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aus Card*/
+* {box-sizing: border-box}
+
+.staff_container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills3 {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html3 {width: 100%; background-color: #8B9D83;}
+.css3 {width: 65%; background-color: #6A7B76;}
+.js3 {width: 100%; background-color: #3A4E48;}
+.php3 {width: 90%; background-color: #1f1e33;}
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back3 {
+  background-color: #BEB0A7;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px; /* Set a maximum width for the cards */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+            background-color: #373c3f;
+            color: #dcdcdc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #262a2c;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #dcdcdc;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .hero-section {
+            position: relative;
+            background-image: url('https://codehs.com/uploads/694ad7ead77fec594c1709682dcf2cdc');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 650px 0;
+            height: 100vh;
+        }
+
+        .hero-text {
+            color: #dcdcdc;
+            font-size: 48px;
+            opacity: 0;
+            transform: translateY(-80%);
+            animation: fadeIn 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-80%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #262a2c;
+            color: #dcdcdc;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+/* Privacy */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fafafa;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  text-align: center;
+  max-width: 60%;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-container:hover .checkmark {
+  border: 2px solid #2196F3;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  border: 2px solid #2196F3;
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+/*Check*/
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white; /*Change to "solid white" to see, change to "#2196F3" to not see*/
+  border-width: 0 2px 2px 0;
+  transform: rotate(35deg);
+}
+
+
+
+
+/*Junk for accept button here*/
+#acceptButton {
+	color: #777777;
+	font-size: 16px;
+	border-radius: 5px;
+	border: solid 0px #fafafa;
+	padding: 10px 18px;
+	text-shadow: 0px 0px 0px #fafafa;
+	box-shadow: inset 0px 0px 0px 0px #fafafa;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: Arial;
+	background: #fafafa;
+	display: inline-block;
+	vertical-align: middle;
+}
+#acceptButton:hover {
+	background: #dfdfdf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
